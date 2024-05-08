@@ -141,10 +141,9 @@ var legendd = L.control({position: "bottomleft"});
 legendd.onAdd = function(map) {
 var div = L.DomUtil.create("div", "legendd");
 div.innerHTML =
-'<b>คำอธิบายสัญลักษณ์</b><hr>' + 
-'<p >สถานที่ท่องเที่ยว</p>'
-'<img src="https://cdn-icons-png.flaticon.com/128/1604/1604189.png" width="30%">'; 
-
+'<b>คำอธิบายสัญลักษณ์</b><hr>' +
+'<p>สถานที่ท่องเที่ยว</p>'+
+'<img src="https://cdn-icons-png.flaticon.com/128/1604/1604189.png" width = 30%>'; 
 return div;
 };
 legend.addTo(map);
