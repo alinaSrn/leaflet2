@@ -70,7 +70,6 @@ var baseLayers = {
 } 
 L.control.layers(baseLayers).addTo(map);
 
-
 //การเพิ่มข้อข้อมูลลงบนแผนที่
 var point = L.marker([7.9843, 98.3307],
 {
@@ -142,9 +141,8 @@ legendd.onAdd = function(map) {
 var div = L.DomUtil.create("div", "legendd");
 div.innerHTML =
 '<b>คำอธิบายสัญลักษณ์</b><hr>' +
-'<p>สถานที่ท่องเที่ยว</p>'+
+'<p >สถานที่ท่องเที่ยว</p>'+
 '<img src="https://cdn-icons-png.flaticon.com/128/1604/1604189.png" width = 30%>'; 
-return div;
 return div;
 };
 legend.addTo(map);
@@ -155,4 +153,3 @@ legendd.addTo(map);
 
 </body>
 </html>
-
